@@ -1,0 +1,72 @@
+body{
+    background-image: url("mainbg.jpeg");
+    background-size:cover;
+    background-repeat: repeat;
+}
+#h1{ 
+    display: inline-block;
+    width: 250px;
+    background-color: black;
+    color: white;
+    align-content: center;
+    padding-left: 30px;
+    margin-left: 38% ;
+}
+    div{
+    display: inline-block;
+    position: sticky;
+}
+/* #ele1{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: url("content1.jpg");
+    background-size: cover;
+    
+}
+#ele2{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: url("content2.jpg");
+    background-size: cover;
+}
+#ele3{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    background-image: url("content3.jpg");
+    background-size: cover;
+} */
+.firstlinedisplay{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    gap: 10px;
+}
+img{
+    height: 250px; width: 200px;
+    border: 1px solid black;
+}
+#lamo{
+    height: 250px; width: 250px;
+    border: 1px solid black;
+}
+.secondlinedisplay{
+    display:flex;
+    justify-content: center ;
+    height: 300px;width:100%;
+    gap: 30px;
+}
+
+#para1{
+    display: flex;
+    align-self: flex-start;
+    height: 400px;
+    width:450px;
+    color: white;
+    background-color: black;
+    padding-left: 5px;
+    font-size: 20px;
+    padding-top:15px ;
+}
